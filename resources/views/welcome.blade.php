@@ -9,7 +9,7 @@
         <title>Prevention Box | AWS-Samaritans</title>
     </head>
     <body>
-        <div id="react"></div>
+        <div id="root"></div>
         <script>
         window.Laravel =
         <?php echo json_encode([
