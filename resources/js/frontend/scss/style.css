@@ -69,7 +69,7 @@ body {
   line-height: 1.5;
   color: #23282c;
   text-align: left;
-  background-color: #e4e5e6;
+  background-color: #ffffff;
 }
 
 [tabindex="-1"]:focus {
@@ -11956,7 +11956,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .card-header-actions {
   display: inline-block;
-  float: right;
+  float: none;
   margin-right: -0.25rem;
 }
 
@@ -12205,7 +12205,7 @@ canvas {
   align-items: center;
   -ms-flex-pack: center;
   justify-content: center;
-  width: 215px;
+  width: 225px;
   height: 55px;
   padding: 0;
   margin-right: 0;
@@ -12689,7 +12689,7 @@ canvas {
   display: block;
   font-family: 'Nunito';font-size: 25px;
   font-weight: normal;
-  padding: 0.75rem 1rem;
+  padding: 0.75rem 0.75rem;
   color: black;
   text-decoration: none;
   background: transparent;
@@ -13051,6 +13051,7 @@ canvas {
   }
   .sidebar-minimized .sidebar .nav {
     width: 50px;
+    flex-direction: column-reverse;
   }
   .sidebar-minimized .sidebar .d-minimized-none,
   .sidebar-minimized .sidebar .nav-divider,
@@ -13114,7 +13115,7 @@ canvas {
     display: block;
     float: left;
     width: 50px;
-    font-size: 49px;
+    font-size: 39px;
   }
   .sidebar-minimized .sidebar .nav-link .badge {
     position: absolute;
@@ -14258,7 +14259,7 @@ html[dir="rtl"] .aside-menu-show .aside-menu {
   html:not([dir="rtl"]) .aside-menu-show.aside-menu-fixed .app-footer,
   html:not([dir="rtl"]) .aside-menu-lg-show.aside-menu-fixed .main,
   html:not([dir="rtl"]) .aside-menu-lg-show.aside-menu-fixed .app-footer {
-    margin-right: 250px;
+    margin-right: 200px;
   }
   html:not([dir="rtl"]) .aside-menu-show.breadcrumb-fixed .breadcrumb,
   html:not([dir="rtl"]) .aside-menu-lg-show.breadcrumb-fixed .breadcrumb {
@@ -14487,10 +14488,10 @@ html[dir="rtl"] .aside-menu-show .aside-menu {
     color: #7ac143;
   }
   .app-header .navbar-brand {
-    position: absolute;
+    
     top: 0;
     left: 50%;
-    margin-left: -77.5px;
+    margin-left: -66.5px;
   }
   .app-body {
     margin-top: 55px;
@@ -15181,33 +15182,5 @@ body {
   left: 10px;
 }
 
-.ie-custom-properties {
-  blue: #20a8d8;
-  indigo: #6610f2;
-  purple: #6f42c1;
-  pink: #e83e8c;
-  red: #f86c6b;
-  orange: #f8cb00;
-  yellow: #ffc107;
-  green: #4dbd74;
-  teal: #20c997;
-  cyan: #17a2b8;
-  white: #fff;
-  gray: #73818f;
-  gray-dark: #2f353a;
-  light-blue: #63c2de;
-  primary: #20a8d8;
-  secondary: #c8ced3;
-  success: #4dbd74;
-  info: #63c2de;
-  warning: #ffc107;
-  danger: #f86c6b;
-  light: #f0f3f5;
-  dark: #2f353a;
-  breakpoint-xs: 0;
-  breakpoint-sm: 576px;
-  breakpoint-md: 768px;
-  breakpoint-lg: 992px;
-  breakpoint-xl: 1200px;
-}
+
 /*# sourceMappingURL=coreui.css.map */

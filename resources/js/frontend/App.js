@@ -6,7 +6,7 @@ import '@coreui/icons/css/coreui-icons.min.css';
 
 import './scss/style.css'
 
-import Full from './containers/DefaultLayout/DefaultLayout.js';
+import Full from './containers/Home/Home.js';
 
 import IdleTimer from 'react-idle-timer'
 
