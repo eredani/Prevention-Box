@@ -11710,7 +11710,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.lead {\n    font-size: 1.39375rem !important;\n    font-weight: 300;\n}", ""]);
+exports.push([module.i, "\n.lead {\n    font-size: 1.39375rem !important;\n    font-weight: 300;\n}\n\n.desc {\n    font-size: 1.19375rem !important;\n    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;\n}\n\nul\n{\n    list-style: none;\n}", ""]);
 
 // exports
 
@@ -97807,64 +97807,49 @@ var About = function About() {
     className: "h1-responsive font-weight-bold text-center my-5"
   }, "What we are doing ?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "lead grey-text w-responsive text-center mx-auto mb-5"
-  }, "We try to understand people's mentality under their anonymity. We want to prevent a greater number of suicides in adults and children.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " We have a partnership with Samaritans, an organization that deals with people's problems and cares for a good way to solve them.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "We will redirect you to Samaritans if you want to talk with a real person."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBRow"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBCol"], {
-    lg: "5",
-    className: "text-center text-lg-left"
+  }, "We try to understand people's mentality under their anonymity. We want to prevent a greater number of suicides in adults and children.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "We have a partnership with Samaritans, an organization that deals with people's problems and cares for a good way to solve them.", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), "We will redirect you to Samaritans if you want to talk with a real person."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBRow"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBCol"], {
+    lg: "6",
+    md: "6"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBRow"], {
+    className: "mb-3"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     className: "img-fluid",
     src: _assets_img_present_wellnesswellbeing_jpg__WEBPACK_IMPORTED_MODULE_2___default.a,
     alt: "WellBeing"
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBCol"], {
-    lg: "7"
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBRow"], {
+    className: "mb-5"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBCol"], {
+    xl: "12",
+    md: "12",
+    size: "10"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+    className: "font-weight-bold mb-3"
+  }, "AI"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("pre", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Who is Justin?"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "grey-text desc"
+  }, "Justin is a chatbot that will have fun asking questions about your hobbies and emotional status, everything will only stay between you and Justin ... well just between you Justin will lose his memory as soon as you leave him. Your personal data will not be shared with us if you do not want to help us improve reports among young people such as the average of the sexes or the emotional state. Why an AI? A chatbox will always be indifferent to the people who talk to it, it will not criticize them like a human, it will not be able to create opinions about you to judge yourself. A chatbot will listen to you and make you feel at ease. It will ask you different questions as it will make you know yourself better.")))))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBCol"], {
+    md: "6",
+    lg: "6"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBRow"], {
     className: "mb-3"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBCol"], {
-    size: "1"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBIcon"], {
-    icon: "share",
-    size: "lg",
-    className: "indigo-text"
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBCol"], {
-    xl: "10",
-    md: "11",
+    xl: "12",
+    md: "12",
     size: "10"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     className: "font-weight-bold mb-3"
-  }, "Safety"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "Safety"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "grey-text desc"
-  }, "Your identity will be kept secure. We do not use any database to store conversations. We try to make you more comfortable when you have a conversation. We will take some data, such as your test feedback to make an analysis of the behavior of more people, no one will know who you are all under anonymity with an ID instead of your name."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBRow"], {
+  }, "Your identity will be kept secure. We do not use any database to store conversations. We try to make you more comfortable when you have a conversation. We will take some data, such as your test feedback to make an analysis of the behavior of more people, no one will know who you are all under anonymity with an ID instead of your name."))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBRow"], {
     className: "mb-3"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBCol"], {
-    size: "1"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBIcon"], {
-    icon: "share",
-    size: "lg",
-    className: "indigo-text"
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBCol"], {
-    xl: "10",
-    md: "11",
+    xl: "12",
+    md: "12",
     size: "10"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     className: "font-weight-bold mb-3"
-  }, "Trust"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "Trust"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "grey-text desc"
-  }, "We will never try to influence you in making decisions about yourself. You can put your trust in our answers, but you never have to feel compelled to listen to them, you have to make your own decision as you feel. We will only try to get you on the right way."))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBRow"], {
-    className: "mb-3"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBCol"], {
-    size: "1"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBIcon"], {
-    icon: "share",
-    size: "lg",
-    className: "indigo-text"
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(mdbreact__WEBPACK_IMPORTED_MODULE_1__["MDBCol"], {
-    xl: "10",
-    md: "11",
-    size: "10"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
-    className: "font-weight-bold mb-3"
-  }, "AI"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", null, "Who is Justin?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "grey-text desc"
-  }, "Justin is a chatbot that will have fun asking questions about your hobbies and emotional status, everything will only stay between you and Justin ... well just between you Justin will lose his memory as soon as you leave him. Your personal data will not be shared with us if you do not want to help us improve reports among young people such as the average of the sexes or the emotional state. Why an AI? A chatbox will always be indifferent to the people who talk to it, it will not criticize them like a human, it will not be able to create opinions about you to judge yourself. A chatbot will listen to you and make you feel at ease. It will ask you different questions as it will make you know yourself better."))))));
+  }, "We will never try to influence you in making decisions about yourself. You can put your trust in our answers, but you never have to feel compelled to listen to them, you have to make your own decision as you feel. We will only try to get you on the right way."))))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (About);
