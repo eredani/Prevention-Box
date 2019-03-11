@@ -12696,11 +12696,11 @@ canvas {
 }
 
 .sidebar .nav-link .nav-icon {
-  display: inline-block;
+  display: inline-table;
   width: 1.09375rem;
   margin: 0 0.5rem 0 0;
-  font-size: 1.275rem;
-  color: #73818f;
+  font-size: 1.775rem;
+  color: #20a8d8;
   text-align: center;
 }
 
@@ -13114,7 +13114,7 @@ canvas {
     display: block;
     float: left;
     width: 50px;
-    font-size: 18px;
+    font-size: 49px;
   }
   .sidebar-minimized .sidebar .nav-link .badge {
     position: absolute;

@@ -3,27 +3,32 @@ export default {
     {
       name: 'Home',
       url: '/home',
-      icon: 'cui-speedometer icons',
+      icon: 'cui-home',
     },
+    {
+      name: 'Quiz',
+      url: '/quiz',
+      icon: 'cui-info',
+    }, 
     {
       name: 'About',
       url: '/about',
-      icon: 'cui-speedometer icons',
+      icon: 'cui-info',
     }, 
     {
       name: 'Parteners',
       url: '/parteners',
-      icon: 'cui-speedometer icons',
+      icon: 'cui-people',
     }, 
     {
       name: 'Contact',
       url: '/contact',
-      icon: 'cui-speedometer icons',
+      icon: 'cui-envelope-closed',
     }, 
     {
       name: 'Find a box',
       url: '/find',
-      icon: 'cui-speedometer icons',
+      icon: 'cui-location-pin',
     },   
   ]
 };
