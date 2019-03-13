@@ -1,14 +1,14 @@
 import React, {Component} from 'react';
 
-class HomePage extends Component {
+class FindBoxes extends Component {
 
     render() {
         return (
             <div className="animated fadeIn">
-                Home
+                FindBoxes
             </div>
         )
     }
 }
 
-export default HomePage;
+export default FindBoxes;

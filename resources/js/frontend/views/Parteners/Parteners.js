@@ -1,14 +1,14 @@
 import React, {Component} from 'react';
 
-class HomePage extends Component {
+class Parteners extends Component {
 
     render() {
         return (
             <div className="animated fadeIn">
-                Home
+                Parteners
             </div>
         )
     }
 }
 
-export default HomePage;
+export default Parteners;

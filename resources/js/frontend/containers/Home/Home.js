@@ -4,8 +4,6 @@ import {
     Container
 } from 'reactstrap';
 import {
-    AppAside,
-    AppAsideToggler,
     AppBreadcrumb,
     AppFooter,
     AppHeader,
@@ -77,9 +75,6 @@ class DefaultLayout extends Component {
                             </Switch>
                         </Container>
                     </main>
-                    <AppAside fixed>
-                        Aside
-                    </AppAside>
                 </div>
                 <AppFooter>
                     <span>
