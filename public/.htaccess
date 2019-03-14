@@ -413,7 +413,6 @@ AddDefaultCharset utf-8
 # ----------------------------------------------------------------------
 
 # Rewrite example.com → www.example.com
-
 # The same content should never be available under two different
 # URLs, especially not with and without `www.` at the beginning.
 # This can cause SEO problems (duplicate content), and therefore,
