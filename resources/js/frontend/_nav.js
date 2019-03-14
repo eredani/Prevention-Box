@@ -7,7 +7,7 @@ export default {
         }, {
             name: 'Quiz',
             url: '/quiz',
-            icon: 'cui-info'
+            icon: 'cui-task'
         }, {
             name: 'About',
             url: '/about',

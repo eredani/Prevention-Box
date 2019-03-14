@@ -18,7 +18,7 @@ class App extends Component {
   }
   render() {
     return (
-      <div>
+      <div className="animated fadeIn">
         <IdleTimer
           ref={ref => { this.idleTimer = ref }}
           element={document}

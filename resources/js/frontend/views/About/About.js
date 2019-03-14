@@ -3,7 +3,7 @@ import {MDBRow, MDBCol, MDBIcon} from "mdbreact";
 import wellnesswellbeing from '../../assets/img/present/wellnesswellbeing.jpg'
 const About = () => {
     return (
-        <section className="my-5">
+        <section className="my-5 animated fadeIn">
 
             <h2 className="h1-responsive font-weight-bold text-center my-5">
                 What we are doing ?
