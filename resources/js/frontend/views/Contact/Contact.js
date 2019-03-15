@@ -18,7 +18,7 @@ const ContactPage = () => {
                     <MDBInput
                       type="text"
                       id="form-contact-name"
-                      label="Your name"
+                      label="First Name"
                     />
                   </div>
                 </MDBCol>
@@ -47,7 +47,7 @@ const ContactPage = () => {
                     <MDBInput
                       type="text"
                       id="form-contact-company"
-                      label=""
+                      label="Surname"
                     />
                   </div>
                 </MDBCol>
