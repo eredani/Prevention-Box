@@ -34,7 +34,7 @@ class Parteners extends Component {
           </MDBCol>
           <MDBCol md="4">
             <MDBView hover zoom>
-             <a href="//lords.com"> <img
+             <a href="//lords.org"> <img
                 src={lords}
                 className="img-fluid"
                 alt=""
@@ -46,29 +46,29 @@ class Parteners extends Component {
         <MDBRow>
           <MDBCol md="4">
             <MDBView hover zoom>
-              <img
+              <a href="//samaritans.org"><img
                 src={samaritans}
                 className="img-fluid"
                 alt=""
-              />
+              /></a>
             </MDBView>
           </MDBCol>
           <MDBCol md="4">
             <MDBView hover zoom>
-              <img
+            <a href="//sportengland.org"><img
                 src={sport}
                 className="img-fluid"
                 alt=""
-              />
+              /></a>
             </MDBView>
           </MDBCol>
           <MDBCol md="4">
             <MDBView hover zoom>
-              <img
+            <a href="//ukactive.com"><img
                 src={ukactive}
                 className="img-fluid"
                 alt=""
-              />
+              /></a>
             </MDBView>
           </MDBCol>
         </MDBRow>
