@@ -27,7 +27,7 @@ class App extends Component {
           timeout={600000} />
         <Router>
         <Switch>
-          <Route path="/" name="Home" component={Full} />
+          <Route  path="/" name="Home" component={Full} />
         </Switch>
       </Router>
       </div>
