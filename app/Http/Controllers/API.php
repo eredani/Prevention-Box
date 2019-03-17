@@ -41,13 +41,7 @@ class API extends Controller
             'message' => 'The question was changed!'
         ], 200);
     }
-    function getQuestions()
-    {
-        $data = Quiz::get();
-        return json_decode($data);
-    }
-    function delQuestion(Request $r)
-    {
+    function delQuestion(Request $r){
         Validator::make($r->all(), [
             'id' => 'required|integer|exists:quizs,id',
         ])->validate();
@@ -55,5 +49,8 @@ class API extends Controller
         return response()->json([
             'message' => 'The question was deleted!'
         ], 200);
+    }   
+    function getQuestions(){
+        return json_decode(Quiz::get());
     }
 }

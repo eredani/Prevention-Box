@@ -4,7 +4,7 @@ import { Button, Form, FormGroup, Label, Input, Table, Row,Col,Card,CardBody,Car
 import { MDBContainer, MDBRow, MDBCol, MDBInput, MDBBtn } from 'mdbreact';
 import { MDBNavbar, MDBNavbarNav, MDBNavItem, MDBNavbarToggler, MDBCollapse, MDBDropdown,
     MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem, MDBIcon, toast,ToastContainer,MDBNavbarBrand} from "mdbreact";
-    import {Modal, ModalBody, ModalFooter } from 'reactstrap';
+import {Modal, ModalBody, ModalFooter } from 'reactstrap';
 class ModalExample extends React.Component {
         constructor(props) {
           super(props);

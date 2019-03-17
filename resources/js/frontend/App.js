@@ -16,7 +16,7 @@ class App extends Component {
     this.idleTimer = null
     this.onIdle = this._onIdle.bind(this)
   }
-  render() {
+  render(){
     return (
       <div className="animated fadeIn">
         <IdleTimer
@@ -34,9 +34,10 @@ class App extends Component {
 
     );
   }
-  _onIdle(e) {
+  _onIdle(e){
     if(window.location.pathname!="/home")
     {
+      localStorage.clear();
       window.location.href="/home";
     }
   }
