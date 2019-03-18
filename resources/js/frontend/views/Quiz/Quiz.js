@@ -80,7 +80,8 @@ loadQuestions()
                     <Row>
                         {rows}
                     </Row>
-                    <Button onClick={this.submit} className="text-center">Submit</Button>
+                    {rows.length>0 && <Button onClick={this.submit} className="text-center">Submit</Button>}
+                    
                 </Form>
             </div>
         )
