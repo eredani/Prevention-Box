@@ -6,7 +6,7 @@ class Quiz extends Component {
         super(props);
         this.state=({
             questions:[],
-            data:[]
+            data:{}
         });
         this.handleInputChange = this.handleInputChange.bind(this);
         this.submit = this.submit.bind(this);
@@ -24,9 +24,9 @@ class Quiz extends Component {
         const target = event.target;
         const value = target.type === 'checkbox' ? target.checked : target.value;
         const name = target.name;
-        this.setState({ 
-            data: this.state.data.concat({[name]:value})
-        })
+        this.setState({
+            data:value
+        });
     
     }
     loadQuestions()
@@ -51,19 +51,19 @@ class Quiz extends Component {
                             <legend>{data.question}</legend>
                             <FormGroup style={{textAlign:"justify"}}  check>
                                 <Label check>
-                                <Input type="radio" onChange={this.handleInputChange} name={element.id} value="ans1" required/>{' '}
+                                <Input type="radio" onChange={this.handleInputChange} name={element.id} value={"ans1"+element.id} required/>{' '}
                                 {data.ans1}
                                 </Label>
                             </FormGroup>
                             <FormGroup style={{textAlign:"justify"}} check>
                                 <Label check>
-                                <Input type="radio" onChange={this.handleInputChange} name={element.id} value="ans2" required/>{' '}
+                                <Input type="radio" onChange={this.handleInputChange} name={element.id} value={"ans2"+element.id} required/>{' '}
                                 {data.ans2}
                                 </Label>
                             </FormGroup>
                             <FormGroup style={{textAlign:"justify"}}  check >
                                 <Label check>
-                                <Input type="radio" onChange={this.handleInputChange} name={element.id} value="ans3" required/>{' '}
+                                <Input type="radio" onChange={this.handleInputChange} name={element.id} value={"ans3"+element.id} required/>{' '}
                                 {data.ans3}
                                 </Label>
                             </FormGroup>
