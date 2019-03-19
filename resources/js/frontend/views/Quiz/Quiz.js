@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import { Button, Form, FormGroup, Label, Input,Row,Col } from 'reactstrap';
-
 class Quiz extends Component {
 constructor(props)
 {
@@ -39,8 +38,8 @@ loadQuestions()
     .catch(e=>{
         console.error(e);
     })
-}
-    render(){
+}    
+render(){
         let rows=[];
         if(this.state.questions.length>0)
         {
@@ -85,7 +84,7 @@ loadQuestions()
                 </Form>
             </div>
         )
-    }
+}
 }
 
 export default Quiz;
