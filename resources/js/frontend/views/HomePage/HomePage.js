@@ -5,7 +5,7 @@ class HomePage extends Component {
     render() {
         return (
             <div className="animated fadeIn">
-                The best box from the world
+                <h1 className="text-center">The best box from the world</h1>
             </div>
         )
     }
