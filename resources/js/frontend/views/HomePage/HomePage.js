@@ -5,7 +5,7 @@ class HomePage extends Component {
     render() {
         return (
             <div className="animated fadeIn">
-                Home
+                The best box from the world
             </div>
         )
     }
