@@ -13,8 +13,8 @@ export default {
             url: '/about',
             icon: 'cui-info'
         }, {
-            name: 'Parteners',
-            url: '/parteners',
+            name: 'Partners',
+            url: '/partners',
             icon: 'cui-people'
         }, {
             name: 'Contact',

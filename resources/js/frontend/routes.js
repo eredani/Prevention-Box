@@ -3,7 +3,7 @@ import About from './views/About/About.js';
 import Contact from './views/Contact/Contact.js';
 import Quiz from './views/Quiz/Quiz.js';
 import Full from './containers/Home/Home.js';
-import Parteners from './views/Parteners/Parteners.js';
+import Partners from './views/Partners/Partners.js';
 import FindBoxes from './views/Find/FindBoxes.js';
 import AdminLayout from './views/Admin/Admin.js';
 
@@ -13,7 +13,7 @@ const routes = [
   { path: '/home', name: 'Home', component: HomePage },
   { path: '/quiz', name: 'Quiz', component: Quiz },
   { path: '/about', name: 'About', component: About },
-  { path: '/parteners', name: 'Parteners', component: Parteners },
+  { path: '/partners', name: 'Partners', component: Partners },
   { path: '/contact', name: 'Contact', component: Contact },
   { path: '/find', name: 'Find a box', component: FindBoxes }
 ];

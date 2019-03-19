@@ -2,14 +2,14 @@ import React, {Component} from 'react';
 
 import {MDBView, MDBContainer, MDBRow, MDBCol } from "mdbreact";
 
-import amazon from '../../assets/img/parteners/amazon.png'
-import career from '../../assets/img/parteners/career.png'
-import lords from '../../assets/img/parteners/lords.png'
-import samaritans from '../../assets/img/parteners/samaritans.png'
-import sport from '../../assets/img/parteners/sport.png'
-import ukactive from '../../assets/img/parteners/ukactive.png'
+import amazon from '../../assets/img/partners/amazon.png'
+import career from '../../assets/img/partners/career.png'
+import lords from '../../assets/img/partners/lords.png'
+import samaritans from '../../assets/img/partners/samaritans.png'
+import sport from '../../assets/img/partners/sport.png'
+import ukactive from '../../assets/img/partners/ukactive.png'
 
-class Parteners extends Component {
+class Partners extends Component {
   render() {
     return (
       <MDBContainer className="text-center">
@@ -77,4 +77,4 @@ class Parteners extends Component {
   }
 }
 
-export default Parteners;
+export default Partners;
