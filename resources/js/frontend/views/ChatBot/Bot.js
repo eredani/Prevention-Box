@@ -13,7 +13,7 @@ class Justin extends Component {
         messages: [
           new Message({
             id: 1,
-            message: "Hello, say Hi or Hellp :D",
+            message: "Say Hi or Hello to talk with me :D",
           })
         ]
       });
