@@ -60,6 +60,7 @@ class Quiz extends Component {
                 });
                 let fin =JSON.stringify(msg);
                 localStorage.setItem("reports",JSON.parse(fin));
+                this.forceUpdate()
             }, this); 
     }
     handleInputChange(event) {
