@@ -9,11 +9,11 @@ const About = () => {
                 What we are doing ?
             </h2>
             <p className="lead grey-text w-responsive text-center mx-auto mb-5">
-                We try to understand people's mentality under their anonymity. We want to
-                prevent a greater number of suicides in adults and children.<br/>
-                We have a partnership with Samaritans, an organization that deals with people's
-                problems and cares for a good way to solve them.<br/>
-                We will redirect you to Samaritans if you want to talk with a real person.
+                We try to understand people's mentality while they are anonymous. We want to
+                prevent a great number of suicides in adults, teens and children.<br/>
+                We have a partnership with The Samaritans, an organization that deals with people's
+                problems and will always have a good way to solve them.<br/>
+                We will redirect you to The Samaritans if you want to talk with a real person.
             </p>
             <MDBRow>
                 <MDBCol lg="6" md="6">
@@ -35,13 +35,13 @@ const About = () => {
                                             <p className="grey-text desc">
 
                                                 Justin is a chatbot that will have fun asking questions about your hobbies and
-                                                emotional status, everything will only stay between you and Justin ... well just
-                                                between you Justin will lose his memory as soon as you leave him. Your personal
+                                                emotional status, everything will only stay between you and Justin ... Well just
+                                                between you, Justin will lose his memory as soon as you leave him. Your personal
                                                 data will not be shared with us if you do not want to help us improve reports
-                                                among young people such as the average of the sexes or the emotional state. Why
+                                                among young people. Examples of such as the gender or emotional state. <br/>Why
                                                 an AI? A chatbox will always be indifferent to the people who talk to it, it
                                                 will not criticize them like a human, it will not be able to create opinions
-                                                about you to judge yourself. A chatbot will listen to you and make you feel at
+                                                about you and therefore it will not judge anybody. A chatbot will listen to you and make you feel at
                                                 ease. It will ask you different questions as it will make you know yourself
                                                 better.
                                             </p>

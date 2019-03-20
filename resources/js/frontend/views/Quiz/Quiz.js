@@ -3,6 +3,10 @@ import Pusher from 'pusher-js';
 import { Button, Form, FormGroup, Label, Input,Row,Col } from 'reactstrap';
 import { Pie } from "react-chartjs-2";
 import { MDBContainer } from "mdbreact";
+import ReCAPTCHA from "react-google-recaptcha";
+ 
+const recaptchaRef = React.createRef();
+
 var uniqid = require('uniqid');
 class Quiz extends Component {
     constructor(props)
@@ -13,20 +17,29 @@ class Quiz extends Component {
             data:[],
             report:[]
         });
+        this.reset = this.reset.bind(this);
         this.handleInputChange = this.handleInputChange.bind(this);
         this.submit = this.submit.bind(this);
         this.loadQuestions = this.loadQuestions.bind(this);
     }
+    reset(){
+        localStorage.setItem('answered','no');
+        this.setState({
+            report:[]
+        })
+        location.reload();
+    }
     submit(e)
     {
         e.preventDefault();
+        recaptchaRef.current.execute();
         let data = {
             "data":this.state.data
         }
         axios.post('/api/v1/submit',data,{ headers: {'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')} })
         .then(r=>{
             if(r.data.message=="Success"){
-                localStorage.setItem('answered',true);
+                localStorage.setItem('answered','yes');
                 this.setState({
                     report:r.data.data
                 })
@@ -38,6 +51,7 @@ class Quiz extends Component {
     }
     componentDidMount(){
         this.loadQuestions();
+        
         this.pusher = new Pusher('2948bde252ef68ca5557', {
             cluster: 'eu',
             encrypted: true
@@ -47,6 +61,8 @@ class Quiz extends Component {
                 this.setState({
                     report:msg
                 });
+                let fin =JSON.stringify(msg);
+                localStorage.setItem("reports",JSON.parse(fin));
             }, this); 
     }
     handleInputChange(event) {
@@ -67,20 +83,26 @@ class Quiz extends Component {
         })
     }    
     render(){
-            let ans = localStorage.getItem('answered');
-            if(ans)
+            var ans = localStorage.getItem('answered');
+            var rep =[];rep = localStorage.getItem('reports');
+            if(ans==='yes')
             {
-                if(this.state.report.length>0)
+                
+               if(JSON.parse(rep).length>0)
                 {
                     let charts = [];
-                    this.state.report.forEach((data) => {
+                    JSON.parse(rep).forEach((data) => {
                         charts.push(
                             <Col key={uniqid()} sm={6} md={4} xl={3}><Charts ans1={data.quiz.ans1} ans2={data.quiz.ans2} ans3={data.quiz.ans3} quiz={data.quiz.question} total={data.votes} ans1val={data.ans1} ans2val={data.ans2} ans3val={data.ans3}></Charts></Col>
                         );
                     });
-                    return (<Row>
+                    return (<div>
+                        <a className="btn-floating btn-sm blue-gradient" onClick={this.reset}>Retry</a>
+                        <Row>
+                        
                         {charts}
-                    </Row>);
+                    </Row>
+                        </div>);
                 }
                 
             }
@@ -120,6 +142,11 @@ class Quiz extends Component {
             return (
                 <div className="animated fadeIn">
                     <Form onSubmit={this.submit} className="text-center">
+                    <ReCAPTCHA
+                            ref={recaptchaRef}
+                            size="invisible"
+                            sitekey="6LdhwpgUAAAAAKEGnkQpZ2pfWkuRIgIkHxVHbQpU"
+                            />
                         <Row>
                             {rows}
                         </Row>

@@ -114,7 +114,7 @@ class API extends Controller
            
             }
          
-            $this->Pushers($reports,"Reports","Update");
+            $this->Pushers(json_encode($reports),"Reports","Update");
             return response()->json([
                 'message' => "Success",
                 'data' => $reports
