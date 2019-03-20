@@ -90,7 +90,7 @@ const styles = {
     },
     chatbubble: {
       borderRadius: 30,
-      padding: 10
+      padding: 20
     }
   },
   headerTitle: {
@@ -100,15 +100,15 @@ const styles = {
   messagesContainer: {
     display: 'flex',
     flexDirection: 'column',
-    padding: 10,
+    padding: 20,
     alignItems: 'center'
   },
   input: {
     fontSize: 16,
-    padding: 10,
+    padding: 20,
     outline: 'none',
-    width: 350,
-    border: 'none',
+    width: 300,
+    border:'none',
     borderBottom: '2px solid rgb(0, 132, 255)'
   }
 }

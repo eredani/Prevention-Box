@@ -20,9 +20,9 @@ ul
     padding-top: 10%;
   }
   .App{
-    float: left;
+    float: center;
     position: absolute;
-    bottom: 10px;
+    bottom: 50px;
     width: 50%;
   }
   

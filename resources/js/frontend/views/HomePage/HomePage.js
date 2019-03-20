@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Justin from '../ChatBot/Bot';
+import {MDBContainer} from 'mdbreact';
 class HomePage extends Component {
     render() {
         return (
@@ -7,7 +8,9 @@ class HomePage extends Component {
                 <video width="100%" height="100%" autoPlay>
                 <source src="/box.mp4" type="video/mp4"/>
                 </video>
-                <Justin></Justin>
+                <MDBContainer>
+                    <Justin></Justin>
+                    </MDBContainer>
             </div>
         )
     }
