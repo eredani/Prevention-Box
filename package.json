@@ -29,6 +29,8 @@
     "dependencies": {
         "@coreui/coreui": "^2.1.8",
         "@coreui/react": "^2.1.5",
+        "aws-amplify": "^1.1.22",
+        "awsmobile-cli": "^1.1.7",
         "chart.js": "^2.7.3",
         "classnames": "^2.2.6",
         "flag-icon-css": "^3.3.0",
@@ -38,6 +40,7 @@
         "mdbreact": "^4.11.0",
         "pusher-js": "^4.4.0",
         "react-chartjs-2": "^2.7.4",
+        "react-chat-ui": "^0.3.2",
         "react-geolocated": "^2.4.1",
         "react-google-maps": "^9.4.5",
         "react-google-recaptcha": "^1.0.5",
