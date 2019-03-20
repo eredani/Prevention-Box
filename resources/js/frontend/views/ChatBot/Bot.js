@@ -63,9 +63,6 @@ class Justin extends Component {
   render() {
     return (
       <div className="App">
-        <header style={styles.header}>
-          <p style={styles.headerTitle}>Hi I am Justin!</p>
-        </header>
         <div style={styles.messagesContainer}>
         <h2>{this.state.finalMessage}</h2>
         <ChatFeed
@@ -97,13 +94,8 @@ const styles = {
     }
   },
   headerTitle: {
-    color: 'white',
+    color: 'black',
     fontSize: 22
-  },
-  header: {
-    backgroundColor: 'rgb(0, 132, 255)',
-    padding: 20,
-    borderTop: '12px solid rgb(204, 204, 204)'
   },
   messagesContainer: {
     display: 'flex',

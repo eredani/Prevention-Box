@@ -19,3 +19,8 @@ ul
     padding: 10px;
     padding-top: 10%;
   }
+  .App{
+    float: right;
+    position: relative;
+  }
+  
