@@ -4,9 +4,7 @@ import { Button, Form, FormGroup, Label, Input,Row,Col } from 'reactstrap';
 import { Pie } from "react-chartjs-2";
 import { MDBContainer } from "mdbreact";
 import ReCAPTCHA from "react-google-recaptcha";
- 
 const recaptchaRef = React.createRef();
-
 var uniqid = require('uniqid');
 class Quiz extends Component {
     constructor(props)
@@ -27,7 +25,6 @@ class Quiz extends Component {
         this.setState({
             report:[]
         })
-        location.reload();
     }
     submit(e)
     {
@@ -189,5 +186,5 @@ class Charts extends React.Component {
           </MDBContainer>
         );
       }
-    }
+}
 export default Quiz;
