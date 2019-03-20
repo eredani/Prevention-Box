@@ -34,7 +34,9 @@
         "flag-icon-css": "^3.3.0",
         "font-awesome": "^4.7.0",
         "history": "^4.7.2",
+        "laravel-echo": "^1.4.0",
         "mdbreact": "^4.11.0",
+        "pusher-js": "^4.4.0",
         "react-chartjs-2": "^2.7.4",
         "react-geolocated": "^2.4.1",
         "react-google-maps": "^9.4.5",
@@ -50,6 +52,8 @@
         "redux": "^4.0.1",
         "redux-logger": "^3.0.6",
         "redux-thunk": "^2.3.0",
-        "simple-line-icons": "^2.4.1"
+        "simple-line-icons": "^2.4.1",
+        "socket.io": "^2.1.1",
+        "uniqid": "^5.0.3"
     }
 }
